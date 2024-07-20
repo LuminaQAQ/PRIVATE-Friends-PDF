@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        [
+            "../friends/【701】The One With Monica’s ThunderSY conv.html",
+            "../friends/【702】The One With Rachel’s BookSY conv.html",
+            "../friends/【703】The One With Phoebe’s CookiesSY conv.html",
+            "../friends/【704】The One With Rachel’s AssistantSY conv.html",
+            "../friends/【706】The One With The Nap PartnersSY conv.html",
+            "../friends/【707】The One With Ross’s Library BookSY conv.html",
+            "../friends/【708】The One Where Chandler Doesn’t Like DogsSY conv.html",
+            "../friends/【709】The One With All The CandySY conv.html",
+            "../friends/【710】The One With the Holiday ArmadilloSY conv.html",
+            "../friends/【711】The One With All The CheesecakesSY conv.html",
+            "../friends/【712】The One Where They’re Up All NightSY conv.html",
+            "../friends/【713】The One Where Rosita DiesSY conv.html",
+            "../friends/【714】The One Where They All Turn ThirtySY conv.html",
+            "../friends/【715】The One With Joey’s New BrainSY conv.html",
+            "../friends/【716】The One With The Truth About LondonSY conv.html",
+            "../friends/【717】The One With The Cheap Wedding DressSY conv.html",
+            "../friends/【718】The One With Joey’s AwardSY conv.html",
+            "../friends/【719】The One With Ross and Monica’s CousinSY conv.html",
+            "../friends/【720】The One With Rachel’s Big KissSY conv.html",
+            "../friends/【721】The One With The VowsSY conv.html",
+            "../friends/【722】The One With Chandler’s DadSY conv.html",
+            "../friends/【723+724】The One With Chandler and Monica’s WeddingSY conv.html",
+        ].forEach(function (item) {
+            const p = document.createElement("p");
+            var a = document.createElement("a");
+            a.href = item;
+            a.innerHTML = item.substring(item.lastIndexOf("/") + 1).split(".html")[0];
+            p.appendChild(a);
+            document.body.appendChild(p);
+        })
+    </script>
+</body>
+
+</html>

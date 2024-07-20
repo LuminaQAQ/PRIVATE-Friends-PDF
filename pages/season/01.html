@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        ["../friends/【101】The One Where Monica Gets a New RoommateSY conv.html",
+            "../friends/【102】 One With the Sonogram at the EndSY conv.html",
+            "../friends/【103】The One With the ThumbSY conv.html",
+            "../friends/【104】The One With George StephanopoulosSY conv.html",
+            "../friends/【105】The One With the East German Laundry DetergentSY conv.html",
+            "../friends/【106】The One With the ButtSY conv.html",
+            "../friends/【107】The One With the BlackoutSY conv.html",
+            "../friends/【108】The One Where Nana Dies TwiceSY conv.html",
+            "../friends/【109】The One Where Underdog Gets AwaySY conv.html",
+            "../friends/【110】The One With the MonkeySY conv.html",
+            "../friends/【111】The One With Mrs BingSY conv.html",
+            "../friends/【112】The One With the Dozen LasagnesSY conv.html",
+            "../friends/【113】The One With the BoobiesSY conv.html",
+            "../friends/【114】The One With the Candy HeartsSY conv.html",
+            "../friends/【115】The One With the Stoned GuySY conv.html",
+            "../friends/【116】The One With Two PartsSY conv.html",
+            "../friends/【117】The One With Two PartsSY conv.html",
+            "../friends/【118】The One With All The PokerSY conv.html",
+            "../friends/【119】The One Where the Monkey Gets AwaySY conv.html",
+            "../friends/【120】The One With the Evil OrthodontistSY conv.html",
+            "../friends/【121】The One With The Fake MonicaSY conv.html",
+            "../friends/【122】The One With the Ick FactorSY conv.html",
+            "../friends/【123】The One With the BirthSY conv.html",
+            "../friends/【124】The One Where Rachel Finds OutSY conv.html"].forEach(function (item) {
+                const p = document.createElement("p");
+                var a = document.createElement("a");
+                a.href = item;
+                a.innerHTML = item.substring(item.lastIndexOf("/") + 1).split(".html")[0];
+                p.appendChild(a);
+                document.body.appendChild(p);
+            })
+    </script>
+</body>
+
+</html>

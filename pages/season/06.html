@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        [
+            "../friends/【601】The One After VegasSY conv.html",
+            "../friends/【602】The One Where Ross Hugs RachelSY conv.html",
+            "../friends/【603】The One With Ross’s DenialSY conv.html",
+            "../friends/【604】The One Where Joey Loses His InsuranceSY conv.html",
+            "../friends/【605】The One With Joey’s PorscheSY conv.html",
+            "../friends/【606】The One On The Last NightSY conv.html",
+            "../friends/【608】The One With Ross’s TeethSY conv.html",
+            "../friends/【609】The One Where Ross Got HighSY conv.html",
+            "../friends/【610】The One With The RoutineSY conv.html",
+            "../friends/【611】The One With The Apothecary TableSY conv.html",
+            "../friends/【612】The One With The JokeSY conv.html",
+            "../friends/【613】The One With Rachel’s SisterSY conv.html",
+            "../friends/【614】The One Where Chandler Can’t CrySY conv.html",
+            "../friends/【615+616】The One That Could Have BeenSY conv.html",
+            "../friends/【617】The One With The UnagiSY conv.html",
+            "../friends/【618】The One Where Ross Dates A StudentSY conv.html",
+            "../friends/【619】The One With Joey’s FridgeSY conv.html",
+            "../friends/【621】The One Where Ross Meets Elizabeth’s DadSY conv.html",
+            "../friends/【622】The One Where Paul’s The ManSY conv.html",
+            "../friends/【623】The One With The RingSY conv.html",
+            "../friends/【624+625】The One With The ProposalSY conv.html",].forEach(function (item) {
+                const p = document.createElement("p");
+                var a = document.createElement("a");
+                a.href = item;
+                a.innerHTML = item.substring(item.lastIndexOf("/") + 1).split(".html")[0];
+                p.appendChild(a);
+                document.body.appendChild(p);
+            })
+    </script>
+</body>
+
+</html>

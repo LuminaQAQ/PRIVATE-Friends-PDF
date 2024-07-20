@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        [
+            "../friends/【1001】The One After Joey and Rachel KissSY conv.html",
+            "../friends/【1002】The One Where Ross Is FineSY conv.html",
+            "../friends/【1003】The One With Ross's TanSY conv.html",
+            "../friends/【1004】The One With The CakeSY conv.html",
+            "../friends/【1005】The One Where Rachel's Other Sister BabysitsSY conv.html",
+            "../friends/【1006】The One With Ross's GrantSY conv.html",
+            "../friends/【1007】The One With The Home StudySY conv.html",
+            "../friends/【1008】The One With The Late ThanksgivingSY conv.html",
+            "../friends/【1009】The One With The Birth MotherSY conv.html",
+            "../friends/【1010】The One Where Chandler Gets CaughtSY conv.html",
+            "../friends/【1011】The One Where The Stripper CriesSY conv.html",
+            "../friends/【1013】The One Where Joey Speaks FrenchSY conv.html",
+            "../friends/【1014】The One With Princess ConsuelaSY conv.html",
+            "../friends/【1015】The One Where Estelle DiesSY conv.html",
+            "../friends/【1016】The One With Rachel's Going Away PartySY conv.html",
+            "../friends/【1017+1018】The Last OneSY conv.html"].forEach(function (item) {
+                const p = document.createElement("p");
+                var a = document.createElement("a");
+                a.href = item;
+                a.innerHTML = item.substring(item.lastIndexOf("/") + 1).split(".html")[0];
+                p.appendChild(a);
+                document.body.appendChild(p);
+            })
+    </script>
+</body>
+
+</html>

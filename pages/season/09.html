@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        [
+            "../friends/【901】The One Where No One ProposesSY conv.html",
+            "../friends/【902】The One Where Emma CriesSY conv.html",
+            "../friends/【903】The One With The PediatricianSY conv.html",
+            "../friends/【905】The One With Phoebe's Birthday DinnerSY conv.html",
+            "../friends/【906】The One With The Male NannySY conv.html",
+            "../friends/【907】The One With Ross's Inappropriate SongSY conv.html",
+            "../friends/【908】The One With Rachel's Other SisterSY conv.html",
+            "../friends/【909】The One With Rachel's Phone NumberSY conv.html",
+            "../friends/【910】The One With Christmas In TulsaSY conv.html",
+            "../friends/【911】The One Where Rachael Goes Back to WorkSY conv.html",
+            "../friends/【912】The One With Phoebe's RatsSY conv.html",
+            "../friends/【913】The One Where Monica SingsSY conv.html",
+            "../friends/【914】The One With The Blind DatesSY conv.html",
+            "../friends/【915】The One With The MuggingSY conv.html",
+            "../friends/【916】The One With The Boob JobSY conv.html",
+            "../friends/【917】The One With The Memorial ServiceSY conv.html",
+            "../friends/【918】The One With The LotterySY conv.html",
+            "../friends/【919】The One With Rachel's DreamSY conv.html",
+            "../friends/【920】The One With The Soap Opera PartySY conv.html",
+            "../friends/【921】The One At The Fertility ClinicSY conv.html",
+            "../friends/【922】The One With The DonorSY conv.html",
+            "../friends/【923+924】The One In BarbadosSY conv.html",].forEach(function (item) {
+                const p = document.createElement("p");
+                var a = document.createElement("a");
+                a.href = item;
+                a.innerHTML = item.substring(item.lastIndexOf("/") + 1).split(".html")[0];
+                p.appendChild(a);
+                document.body.appendChild(p);
+            })
+    </script>
+</body>
+
+</html>
